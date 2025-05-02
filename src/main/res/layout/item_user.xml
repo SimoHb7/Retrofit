@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userName"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+    android:textSize="20sp"
+    android:fontFamily="sans-serif-medium"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:textColor="#3F51B5"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userPhone"
+        android:textColor="#4CAF50"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
